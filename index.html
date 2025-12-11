@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>>
+    <title>TP6 Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TP6 - Mini Calculatrice</h1>
+        
+        <div class="calculatrice">
+            <h2>Faites un calcul</h2>
+            
+            <div class="form">
+                <div class="input-group">
+                    <label>Premier nombre:</label>
+                    <input type="number" id="nb1">
+                </div>
+                
+                <div class="input-group">
+                    <label>Opération:</label>
+                    <select id="op">
+                        <option value="+">+ (addition)</option>
+                        <option value="-">- (soustraction)</option>
+                        <option value="*">× (multiplication)</option>
+                        <option value="/">÷ (division)</option>
+                    </select>
+                </div>
+                
+                <div class="input-group">
+                    <label>Deuxième nombre:</label>
+                    <input type="number" id="nb2">
+                </div>
+                
+                <button onclick="calculer()">CALCULER</button>
+            </div>
+            
+            <div class="resultat">
+                <h3>Résultat:</h3>
+                <div id="result">_ _ _</div>
+            </div>
+            
+            <div id="erreur" class="erreur"></div>
+        </div>
+        
+        <div class="historique">
+            <h2>Historique</h2>
+            <button onclick="effacerHistoire()">Effacer</button>
+            <div id="histo"></div>
+        </div>
+        
+        <div class="liens">
+            <a href="info.php">Voir la page PHP →</a>
+        </div>
+        
+        <div class="footer">
+            <p>TP6 - HTML, CSS, JavaScript, PHP</p>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

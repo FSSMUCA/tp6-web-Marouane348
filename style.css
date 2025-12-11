@@ -1,0 +1,133 @@
+body {
+    font-family: Arial;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px gray ;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    text-decoration: gray wavy underline;
+}
+
+.calculatrice, .historique {
+    background: #ecf0f1;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.form {
+    margin: 15px 0;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+.resultat {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #27ae60;
+    margin-top: 10px;
+    min-height: 30px;
+}
+
+.erreur {
+    color: #e74c3c;
+    background: #ffeaea;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+}
+
+.historique button {
+    background: #e74c3c;
+}
+
+.historique button:hover {
+    background: #c0392b;
+}
+
+.calc-item {
+    background: white;
+    padding: 8px;
+    margin: 5px 0;
+    border-left: 4px solid #3498db;
+}
+
+.vide {
+    color: #7f8c8d;
+    text-align: center;
+    font-style: italic;
+}
+
+.liens {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.liens a {
+    color: #8e44ad;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.liens a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px solid black;
+}
